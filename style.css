@@ -1,0 +1,13 @@
+/* common shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: Lato;
+}
+.banner{
+    padding: 30px 30px 50px 50px;
+    display: flex;
+    align-items: center;
+    color: #272727;
+    background: rgba(229, 84, 115, 0.10);      
+}
+
