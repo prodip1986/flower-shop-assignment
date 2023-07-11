@@ -4,6 +4,9 @@ body{
     font-family: Lato;
     
 }
+.btn-Primary{
+color: #E55473;
+}
 .banner{
     padding: 30px 30px 30px 30px;
     display: flex;
@@ -11,9 +14,7 @@ body{
     color: #272727;
     background: rgba(229, 84, 115, 0.10);      
 }
-.btn{
-    color: #E55473;
-}
+
 /* main-section-styles */
 .about{
     padding: 30px;
@@ -34,7 +35,49 @@ font-weight: 400;
 line-height: 30p
 }
 .Featured{
+    align-items: baseline;
     display: flex;
     justify-content: space-between;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.icon{
+    display: flex;
+    color: rgba(39, 39, 39, 0.80);
+    justify-content: space-between;
+
+font-size: 24px;
+font-weight: 600;
+24/7 Free Support.
+}
+.icon-title{
+    display: flex;
+}
+.hot-deal{
+    display: flex;
+    text-align: center;
+    background: rgba(229, 84, 115, 0.05);
+}
+    .instragram{
+        justify-content: center;
+    }
+    .picture{
+        display: flex;    
+        width: 594px; }
+.instragram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.flower-background{
+    text-align: center;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: url(./Flower/Rectangle\ 9.png), 
+lightgray 0px -203.444px / 100% 213.755% no-repeat;
+
 }
