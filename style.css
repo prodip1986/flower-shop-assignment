@@ -1,8 +1,10 @@
 /* common shared style */
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: Lato;
-    
+    font-family: Lato;  
+}
+.text-primary{
+    color: #E55473;
 }
 .btn-Primary{
 color: #E55473;
@@ -53,6 +55,7 @@ font-weight: 600;
     display: flex;
 }
 .hot-deal{
+    justify-content:space-between;
     display: flex;
     text-align: center;
     background: rgba(229, 84, 115, 0.05);
@@ -71,6 +74,23 @@ font-weight: 600;
     font-weight: 800;
     line-height: normal;
 }
+.flowe-image{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.flower-images{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
 .flower-background{
     text-align: center;
     width: 1440px;
@@ -79,9 +99,57 @@ font-weight: 600;
     border-radius: 8px;
 background: url(./Flower/Rectangle\ 9.png), 
 lightgray 0px -203.444px / 100% 213.755% no-repeat;}
+.email-input{
+        width: 700px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+}
+.btn-Primary{
+        justify-content: right;
+        width: 150px;
+        height: 64px;
+        border-radius: 8px;
+        background: #E55473;
+}
+/* fotter-related-stles */
 .footer-section{
-    width: 1922px;
+    width: 1440px;
     height: 449px;
     flex-shrink: 0;
     background: #111010;
+    text-align: center;
+}
+.footer-1{color: #E55473;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.fotter-2{
+    color: #ffffff;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.fotter-para{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.fotter-para-1{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
