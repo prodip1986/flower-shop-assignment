@@ -78,6 +78,10 @@ font-weight: 600;
     flex-shrink: 0;
     border-radius: 8px;
 background: url(./Flower/Rectangle\ 9.png), 
-lightgray 0px -203.444px / 100% 213.755% no-repeat;
-
+lightgray 0px -203.444px / 100% 213.755% no-repeat;}
+.footer-section{
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
 }
