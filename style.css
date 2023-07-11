@@ -8,7 +8,13 @@ body{
 }
 .btn-Primary{
 color: #E55473;
+display: inline-flex;
+padding: 10px 20px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
 }
+/* banner-section-styles */
 .banner{
     padding: 30px 30px 30px 30px;
     display: flex;
@@ -36,30 +42,50 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30p
 }
+/* featured-realted-stlyes */
 .Featured{
+    width: 1440px
+
     align-items: baseline;
     display: flex;
     justify-content: space-between;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+.featured-more{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+color: #A7216226;
+}
+.featured-more-1{
+     border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.featured-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+/* ico-related-stlye */
 .icon{
     display: flex;
-    color: rgba(39, 39, 39, 0.80);
+    width: 1300px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
     justify-content: space-between;
-
-font-size: 24px;
-font-weight: 600;
-24/7 Free Support.
 }
-.icon-title{
-    display: flex;
-}
+    /* hot-deal-related-styles */
 .hot-deal{
     justify-content:space-between;
     display: flex;
     text-align: center;
     background: rgba(229, 84, 115, 0.05);
 }
+/* instragram-related-styles */
     .instragram{
         justify-content: center;
     }
@@ -99,6 +125,7 @@ line-height: normal;
     border-radius: 8px;
 background: url(./Flower/Rectangle\ 9.png), 
 lightgray 0px -203.444px / 100% 213.755% no-repeat;}
+/* email-related-styles */
 .email-input{
         width: 700px;
         height: 64px;
@@ -108,8 +135,8 @@ lightgray 0px -203.444px / 100% 213.755% no-repeat;}
 }
 .btn-Primary{
         justify-content: right;
-        width: 150px;
-        height: 64px;
+        width: 100px;
+        height: 50px;
         border-radius: 8px;
         background: #E55473;
 }
